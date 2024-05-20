@@ -1,2 +1,0 @@
-
-        switch (Operations.toUpperCase()) {
