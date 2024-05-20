@@ -1,0 +1,30 @@
+//Common String Methods 
+
+int length() // returns the length of a string 
+
+String str1 = "Java";
+int l = str.length(); // returns 4
+
+
+
+String toLowerCase() // returns the string lower case 
+str1.toLowerCase(); // returns java
+
+
+String toUpperCase() // returns the string upper case 
+str1.toUpperCase(); // JAVA
+
+String trim() // creates a new object that removes white space that is trailing or any before the string 
+String str = "    WELCOME    "
+returns WELCOME
+
+
+String substring(int begin) // returns a substring 
+str.substring(3) // returns COME
+
+
+String substring(int begin, int end) // 
+str.substring(3, 6); //Returns COM
+
+String replace(char old, char new) // replcaes all characters with the desired char value
+

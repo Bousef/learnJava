@@ -1,0 +1,59 @@
+//Java Strings
+
+
+String -> (reference) str1 = "Java program"; <- string object 
+Constructors:
+String(char[]);
+String(byte[])
+String(string)
+
+
+str1 -> [j, a, v ,a, , p , r, o , g, r, a, m]
+
+
+convert an array of characters to a string
+
+char c[] = {'A', 'B','C','D',}
+
+string str1 = new String(c) // must use new to create a new String
+
+byte b[] = {65, 66, 67, 68};
+
+String str2 = new String(b);
+
+str2[] -> [A, B, C, D]
+
+
+new means that the object will be created in a heap 
+
+String str1 = new String("Java"); //When we create any string by using the string method.
+we are giving a string literal and creating a new string 
+
+Str1 is a reference to the object java which is stored in the heap.
+
+String str = "www.abcd.org"
+
+str.startsWith('www') // checks if a string starts with the given character values returns true if true, false otherwise 
+// above returns true since website string begins with wwww 
+
+str.startsWith("http") - returns false 
+
+str.endsWith(".org") // checks what the string ends with
+
+str.indexOf(".") or str.indexOf(".", 3) // can mention a character or a string 
+//returns index of the particular char/string value  also returns -1 if not found 
+
+str.CharAt(int index) // returns the char at a particular index
+
+str.lastIndexOf(String s)  // returns the last index of the string provided, also returns -1 if not found 
+
+str.equals() // checks to see if the strings are equal to each otherwise
+
+str.equalsIgnoreCase() // checks equality of strings ignoring character case 
+str.compareTo() // compares the strings to each other in dictionary order
+str.valueOf()
+
+
+
+
+
